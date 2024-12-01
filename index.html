@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cv-container">
+        <header>
+            <h1>Murtaza Sohail</h1>
+            <p>Web Developer | Web Designer</p>
+            <p>Email: <a href="mailto:murtazasohail483@gmail.com">murtazasohail483@gmail.com</a></p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/murtaza.sohail.718" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/murtazasohail03/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </header>
+        <section>
+            <h2>Profile</h2>
+            <p>A highly motivated web developer with a passion for creating innovative solutions and user-friendly applications. Skilled in front-end development, problem-solving, and teamwork.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="circle-container">
+                <div class="circle-box">
+                    <div class="progress-circle html">
+                        <span>100%</span>
+                    </div>
+                    <p>HTML</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle css">
+                        <span>100%</span>
+                    </div>
+                    <p>CSS</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle javascript">
+                        <span>20%</span>
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle article-writing">
+                        <span>100%</span>
+                    </div>
+                    <p>Article Writing</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle gaming">
+                        <span>100%</span>
+                    </div>
+                    <p>Gaming</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle content-writing">
+                        <span>100%</span>
+                    </div>
+                    <p>Content Writing</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle blog-writing">
+                        <span>100%</span>
+                    </div>
+                    <p>Blog Writing</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Interests</h2>
+            <div class="circle-container">
+                <div class="circle-box">
+                    <div class="progress-circle book-reading">
+                        <span>100%</span>
+                    </div>
+                    <p>Book Reading</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle gaming">
+                        <span>100%</span>
+                    </div>
+                    <p>Gaming</p>
+                </div>
+                <div class="circle-box">
+                    <div class="progress-circle movies">
+                        <span>100%</span>
+                    </div>
+                    <p>Movies</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p>1 year experience in front-end web development</p>
+
+            <h2>Education</h2>
+            <p>Associate Degree in Computer Science</p>
+            <p>Superior College Lahore | 2019 - 2021</p>
+        </section>
+
+        <footer>
+            <!-- <p>© 2024 Murtaza Sohail | All rights reserved.</p> -->
+        </footer>
+    </div>
+
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #1e90ff;
+            color: #fff;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h1, h2, h3, h4 {
+            color: #e50914;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #1dd1a1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ff9f43;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            font-size: 1.5rem;
+            margin: 0 10px;
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ff9f43;
+        }
+
+        .circle-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .circle-box {
+            text-align: center;
+        }
+
+        .progress-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(#d3d3d3 0%, #d3d3d3 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .progress-circle span {
+            position: absolute;
+            font-size: 1.2rem;
+        }
+
+        .progress-circle:hover {
+            transform: scale(1.1);
+        }
+
+        .progress-circle.html {
+            background: conic-gradient(#ff5722 0%, #ff5722 100%);
+        }
+
+        .progress-circle.css {
+            background: conic-gradient(#2196f3 0%, #2196f3 100%);
+        }
+
+        .progress-circle.javascript {
+            background: conic-gradient(#ff9800 0%, #ff9800 20%);
+        }
+
+        .progress-circle.article-writing {
+            background: conic-gradient(#ff9800 0%, #ff9800 100%);
+        }
+
+        .progress-circle.gaming {
+            background: conic-gradient(#673ab7 0%, #673ab7 100%);
+        }
+
+        .progress-circle.content-writing {
+            background: conic-gradient(#009688 0%, #009688 100%);
+        }
+
+        .progress-circle.blog-writing {
+            background: conic-gradient(#e91e63 0%, #e91e63 100%);
+        }
+
+        .progress-circle.book-reading {
+            background: conic-gradient(#4caf50 0%, #4caf50 100%);
+        }
+
+        .progress-circle.movies {
+            background: conic-gradient(#ff5722 0%, #ff5722 100%);
+        }
+    </style>
+</body>
+</html>
